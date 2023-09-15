@@ -1,0 +1,108 @@
+body{
+    overflow-x: hidden;
+}
+.cut{
+    background: linear-gradient(to bottom right, red, purple);
+    /* height: 200px; */
+}
+.siwes{
+    font-size: 81px;
+}
+.siwes2{
+    font-size: 30px;
+}
+.studentImg{
+    margin-top: 161px;
+}
+.start{
+    position: relative;
+    left: 90px;
+}
+.aboutLautech{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aboutLautech:hover{
+    background-color: #8E0071;
+    color: white;
+    transform: scale(1.1);
+}
+.aboutLautech2:hover{
+    background-color: #D1002F;
+    color: white;
+    transform: scale(1.1);
+}
+.con{
+    background-color: #8E0071;
+}
+.form{
+    margin-top: -10px !important;
+}
+.InputDescription{
+    font-size: 13px;
+}
+.conBody{
+    background-color: #8E0071;
+}
+.conBody2{
+    background-color: #D1002F;
+    overflow-x: auto;
+}
+.table,tr,th,td{
+    border: 1px solid white;
+}
+.click{
+    position: relative;
+    left: 12rem;
+    top:4rem;
+    z-index: 2;
+    animation-name: click;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* transition: all 0.3s ease; */
+}
+@keyframes click {
+
+    0% {
+        transform: translateY(0);
+      }
+      10% {
+        transform: translateY(-5px); /* Move to the left */
+      }
+      20% {
+        transform: translateY(5px); /* Move to the right */
+      }
+      30% {
+        transform: translateY(-5px); /* Move to the left */
+      }
+      40% {
+        transform: translateY(5px); /* Move to the right */
+      }
+      50% {
+        transform: translateY(-5px); /* Move to the left */
+      }
+      60% {
+        transform: translateY(5px); /* Move to the right */
+      }
+      70% {
+        transform: translateY(-5px); /* Move to the left */
+      }
+      80% {
+        transform: translateY(5px); /* Move to the right */
+      }
+      90% {
+        transform: translateY(-5px); /* Move to the left */
+      }
+      100% {
+        transform: translateY(0); /* Return to the original position */
+      }
+    /* 0%{
+        top: 4rem;
+    }
+    70%{
+        top: 5.5rem;
+    }
+    100%{
+        top: 4rem;
+    } */
+  }
