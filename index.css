@@ -94,4 +94,28 @@ body{
     100% {
       transform: translateY(0); /* Return to the original position */
     }
-  }
+}
+@media (max-width: 460px) {
+    .cut{
+        min-width: 28rem !important;
+        /* height: 5rem !important; */
+    }
+    .start{
+        margin-left: -30px;
+    }
+    #about{
+        margin-left: 1rem;
+        width: 400px;
+    }
+    #contact{
+        margin-left: 2rem;
+        width: 400px;
+    }
+    #footer{
+        /* margin-left: 2rem; */
+        width: 450px;
+    }
+    .cut{
+        width: 450px !important;
+    }
+}
