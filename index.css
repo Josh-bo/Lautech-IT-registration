@@ -6,13 +6,13 @@ body{
     /* height: 200px; */
 }
 .siwes{
-    font-size: 81px;
+    font-size: 80px;
 }
 .siwes2{
     font-size: 30px;
 }
 .studentImg{
-    margin-top: 161px;
+    margin-top: 90px;
 }
 .start{
     position: relative;
@@ -51,58 +51,47 @@ body{
     border: 1px solid white;
 }
 .click{
-    position: relative;
-    left: 12rem;
-    top:4rem;
+    /* position: relative; */
+    /* left: 10rem; */
+    top: -1rem;
     z-index: 2;
     animation-name: click;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    /* transition: all 0.3s ease; */
 }
 @keyframes click {
-
     0% {
-        transform: translateY(0);
-      }
-      10% {
-        transform: translateY(-5px); /* Move to the left */
-      }
-      20% {
-        transform: translateY(5px); /* Move to the right */
-      }
-      30% {
-        transform: translateY(-5px); /* Move to the left */
-      }
-      40% {
-        transform: translateY(5px); /* Move to the right */
-      }
-      50% {
-        transform: translateY(-5px); /* Move to the left */
-      }
-      60% {
-        transform: translateY(5px); /* Move to the right */
-      }
-      70% {
-        transform: translateY(-5px); /* Move to the left */
-      }
-      80% {
-        transform: translateY(5px); /* Move to the right */
-      }
-      90% {
-        transform: translateY(-5px); /* Move to the left */
-      }
-      100% {
-        transform: translateY(0); /* Return to the original position */
-      }
-    /* 0%{
-        top: 4rem;
+      transform: translateY(0);
     }
-    70%{
-        top: 5.5rem;
+    10% {
+      transform: translateY(-5px); /* Move to the left */
     }
-    100%{
-        top: 4rem;
-    } */
+    20% {
+      transform: translateY(5px); /* Move to the right */
+    }
+    30% {
+      transform: translateY(-5px); /* Move to the left */
+    }
+    40% {
+      transform: translateY(5px); /* Move to the right */
+    }
+    50% {
+      transform: translateY(-5px); /* Move to the left */
+    }
+    60% {
+      transform: translateY(5px); /* Move to the right */
+    }
+    70% {
+      transform: translateY(-5px); /* Move to the left */
+    }
+    80% {
+      transform: translateY(5px); /* Move to the right */
+    }
+    90% {
+      transform: translateY(-5px); /* Move to the left */
+    }
+    100% {
+      transform: translateY(0); /* Return to the original position */
+    }
   }
